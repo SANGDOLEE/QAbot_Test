@@ -1,5 +1,7 @@
+
 # rotation_data.py (예시 파일)
-ROTATION = [
-    # (iOS 담당자, Android 담당자)
-    ("U09M64KHECD", "U09M64KHECD"),
-]
+
+NAME_TO_SLACK_ID = {
+    "이상도" : "U09M64KHECD"
+    # 필요에 따라 계속 추가
+}
