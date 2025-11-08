@@ -79,9 +79,9 @@ def setup_scheduler():
     scheduler.add_job(
         post_weekly_qm_message,
         trigger="cron",
-        day_of_week="fri",
-        hour=17,
-        minute=15,
+        day_of_week="mon",
+        hour=10,
+        minute=00,
     )
     scheduler.start()
 
